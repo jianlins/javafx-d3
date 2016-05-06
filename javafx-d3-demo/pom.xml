@@ -4,7 +4,19 @@
 	<groupId>javafx-d3-demo</groupId>
 	<artifactId>javafx-d3-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+		<dependency>
+			<groupId>javafx-d3</groupId>
+			<artifactId>javafx-d3</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
 
+	</dependencies>
 
 	<build>
 
@@ -96,17 +108,5 @@
 	</build>
 
 
-	<dependencies>
-		<dependency>
-			<groupId>javafx-d3</groupId>
-			<artifactId>javafx-d3</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-		</dependency>
 
-	</dependencies>
 </project>
